@@ -1,0 +1,30 @@
+{
+  "name": "ecom-mern",
+  "version": "1.0.0",
+  "description": "Ecommerce website with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunjagadishsd/ecom-mern.git"
+  },
+  "keywords": [
+    "MERN",
+    "Ecommmerce",
+    "React",
+    "Express",
+    "JavaScript"
+  ],
+  "author": "AJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arunjagadishsd/ecom-mern/issues"
+  },
+  "homepage": "https://github.com/arunjagadishsd/ecom-mern#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
