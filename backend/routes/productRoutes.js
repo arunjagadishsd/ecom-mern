@@ -14,8 +14,8 @@ router.get(
 
 router.get(
   "/:id",
-  asyncHandler((req, res) => {
-    const product = Product.findById(req.params.id);
+  asyncHandler(async (req, res) => {
+    const product = await Product.findById(req.params.id);
     if (product) {
       res.json(product);
     }
