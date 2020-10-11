@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
 import CartPage from "./pages/CartPage";
 import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Container className="py-3">
           <Route path="/login" exact component={LoginPage} />
+          <Route path="/register" exact component={RegisterPage} />
           <Route path="/product/:id" exact component={ProductPage} />
           <Route path="/cart/:id?" exact component={CartPage} />
           <Route path="/" exact component={HomePage} />
