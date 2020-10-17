@@ -9,6 +9,7 @@ import CartPage from "./pages/CartPage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import ProfilePage from "./pages/ProfilePage";
+import ShippingPage from "./pages/ShippingPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/profile" exact component={ProfilePage} />
           <Route path="/product/:id" exact component={ProductPage} />
           <Route path="/cart/:id?" exact component={CartPage} />
+          <Route path="/shipping" exact component={ShippingPage} />
           <Route path="/" exact component={HomePage} />
         </Container>
       </main>
